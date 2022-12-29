@@ -22,14 +22,14 @@ def rank(s):
 names=["Ronaldo","Rohit","Preeti","Anuska"]
 #we can also take names as input from the user
 #names=list (map(str,input("Enter all the names with space in it: ").split()))
-marks=[12,34,4,50]
-#marks=list(map(int,input("Enter all marks respectively with space: ").split()))
+# marks=[12,34,4,50]
+marks=list(map(int,input("Enter all marks respectively with space: ").split()))
 s=dictionaray(names,marks)
 q=rank(s)
 # list1("Previous Rank:",q)
 
-updates=[45,34,301,24]
-#updates=list(map(int,input("Enter all updated marks respectively with space: ").split()))
+# updates=[45,34,301,24]
+updates=list(map(int,input("Enter all updated marks respectively with space: ").split()))
 s=dictionaray(names,updates)
 p=(rank(s))
 # list1=("Current Rank:",p)
